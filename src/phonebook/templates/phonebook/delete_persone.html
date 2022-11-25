@@ -33,7 +33,7 @@
         <h1>Are you shure? Delete Contact {{ object.name }}</h1>
         <form action="" method="post">
             {% csrf_token%}
-            <button class="submit" >Delete</button>
+            <button type="button" class="btn btn-danger" >Delete</button>
         </form>
     </div>
     
